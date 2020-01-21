@@ -3,7 +3,6 @@ from graph import*
 
 windowSize(400, 580)
 penSize(0)
-N = 5
 
 #Background
 penColor('grey')
@@ -58,7 +57,7 @@ penSize(5)
 line(8, 225, 8, 249)
 line(252, 225, 252, 249)
 
-
+N = 5
 x1 = 10; y1 = 225
 x2 = 250; y2 = 250
 h = (x2 - x1)/(N + 1)
@@ -91,12 +90,17 @@ penSize(0)
 
 #Ghost
 brushColor('#aaaaaa')
+polygon([(285, 457), (323, 453),
+         (365, 507), (245, 527)])
 circle(300, 455, 18)
 brushColor('#C0E1ED')
-circle(292, 453, 4)
-circle(305, 451, 4)
+circle(290, 453, 4.5)
+circle(305, 451, 4.5)
 brushColor('black')
-circle(290, 453, 1.5)
-circle(304, 451, 1.5)
+circle(288, 454, 1.5)
+circle(302, 452, 1.5)
+brushColor('white')
+oval(290, 453, 294.5, 451)
+oval(304, 451, 309.5, 449)
 
 run()
