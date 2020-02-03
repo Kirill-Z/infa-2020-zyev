@@ -28,11 +28,15 @@ def Home():
     def housePainting():
         brushColor('554343')
         rectangle()
+    def roof:
+        penColor('black')
+        brushColor('black')
+        polygon([(x1 - 10, y1), (x1 + 20, y1 - 20)
+                 (x1 + 100, y1 - 20), (x1 + 120, y1)])
 
 
 Home()
-#Home()
-#Home()
+
 
 #House painting
 def housePainting():
